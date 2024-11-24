@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Meta data -->
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Dashlead - Bootstrap Responsive Dashboard Simple Admin HTML5 Template">
+	<meta name="author" content="Spruko Technologies Private Limited">
+	<meta name="keywords" content="admin, dashboard, backend, flat, jquery, Ui, crm, admin template, responsive , bootstrap, clean, scss, modern, minimal, panel">
+	<!-- Title -->
+	<title>Dashlead - Bootstrap Responsive Dashboard Simple Admin HTML5 Template</title>
+	<link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+	<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+	<link href="assets/plugins/iconfonts/icons.css" rel="stylesheet" />
+	<!-- Custom Css -->
+	<link href="assets/css/main.css" rel="stylesheet">
+	<!---Internal  Prism css-->
+	<link href="assets/plugins/prism/prism.css" rel="stylesheet">
+	<link href="assets/plugins/treeview-prism/prism.css" rel="stylesheet">
+	<link href="assets/plugins/treeview-prism/prism-treeview.css" rel="stylesheet">
+	<link href="assets/css/themes/all-themes.css" rel="stylesheet" />
+</head>
+
+<body class="theme-blush">
+	<!-- Page Loader -->
+	<div class="page-loader-wrapper">
+		<div class="loader">
+			<div class="preloader">
+				<div class="spinner-layer pl-blush">
+					<div class="circle-clipper left">
+						<div class="circle"></div>
+					</div>
+					<div class="circle-clipper right">
+						<div class="circle"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- #END# Page Loader -->
+
+	<!-- Overlay For Sidebars -->
+	<div class="overlay"></div>
+	<!-- #END# Overlay For Sidebars -->
+
+
+	<!-- #Top Bar -->
+	<!-- Sidebarover lay -->
+	<div class="sidebar-overlay" data-toggle="sidebar"></div>
+	<section>
+		<!-- Left Sidebar -->
+		<aside id="leftsidebar" class="sidebar">
+			<!-- User Info -->
+			<div class="admin-image"> <img src="assets/images/logo.png" alt=""> </div>
+			<!-- Menu -->
+			<div class="menu main-sidebar">
+				<ul class="list" id="documenter_nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html"><i>
+								<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home-2"
+									width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+									fill="none" stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+									<polyline points="5 12 3 12 12 3 21 12 19 12" />
+									<path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+									<rect x="10" y="12" width="4" height="4" />
+								</svg>
+							</i><span class="sidemenu-label">Introduction</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="folder-structure.html"><i><svg xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-folder" width="24" height="24"
+									viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<path
+										d="M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2">
+									</path>
+								</svg></i><span class="sidemenu-label">Folder structure</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gulp.html"><i><svg xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-code" width="24" height="24" viewBox="0 0 24 24"
+									stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+									stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<polyline points="7 8 3 12 7 16"></polyline>
+									<polyline points="17 8 21 12 17 16"></polyline>
+									<line x1="14" y1="4" x2="10" y2="20"></line>
+								</svg></i><span class="sidemenu-label">Gulp</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="html-structure.html"><i><svg xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-brand-html5" width="24" height="24"
+									viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z"></path>
+									<path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5"></path>
+								</svg></i><span class="sidemenu-label">html-structure</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="layouts.html"><i><svg xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-layout-2" width="24" height="24"
+									viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<rect x="4" y="4" width="6" height="5" rx="2"></rect>
+									<rect x="4" y="13" width="6" height="7" rx="2"></rect>
+									<rect x="14" y="4" width="6" height="7" rx="2"></rect>
+									<rect x="14" y="15" width="6" height="5" rx="2"></rect>
+								</svg></i><span class="sidemenu-label">Layouts</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="faqs.html"><i class="sidemenu-icon text-primary"><svg
+									xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-stack-2"
+									width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+									fill="none" stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<polyline points="12 4 4 8 12 12 20 8 12 4"></polyline>
+									<polyline points="4 12 12 16 20 12"></polyline>
+									<polyline points="4 16 12 20 20 16"></polyline>
+								</svg></i><span class="sidemenu-label text-primary fw-bold mr-5">Faqs </span><i
+								class="fa fa-star float-right sidemenu-icon-2 text-warning"></i></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="switcher.html"><i><svg xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-settings" width="24" height="24"
+									viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<path
+										d="M10.325 4.317c.426 -1.756 2.924 -1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543 -.94 3.31 .826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756 .426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543 -.826 3.31 -2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756 -2.924 1.756 -3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543 .94 -3.31 -.826 -2.37 -2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756 -.426 -1.756 -2.924 0 -3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94 -1.543 .826 -3.31 2.37 -2.37c1 .608 2.296 .07 2.572 -1.065z">
+									</path>
+									<circle cx="12" cy="12" r="3"></circle>
+								</svg></i><span class="sidemenu-label">Switcher</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="apps.html"><i><svg xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-apps" width="24" height="24" viewBox="0 0 24 24"
+									stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+									stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<rect x="4" y="4" width="6" height="6" rx="1"></rect>
+									<rect x="4" y="14" width="6" height="6" rx="1"></rect>
+									<rect x="14" y="14" width="6" height="6" rx="1"></rect>
+									<line x1="14" y1="7" x2="20" y2="7"></line>
+									<line x1="17" y1="4" x2="17" y2="10"></line>
+								</svg></i><span class="sidemenu-label">Apps</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="elements.html"><i><svg xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-aperture" width="24" height="24"
+									viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<circle cx="12" cy="12" r="9"></circle>
+									<line x1="3.6" y1="15" x2="14.15" y2="15"></line>
+									<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(72 12 12)"></line>
+									<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(144 12 12)"></line>
+									<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(216 12 12)"></line>
+									<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(288 12 12)"></line>
+								</svg></i><span class="sidemenu-label">Elements</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="form-elements.html"><i><svg xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-brand-codepen" width="24" height="24"
+									viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<path d="M3 15l9 6l9 -6l-9 -6l-9 6"></path>
+									<path d="M3 9l9 6l9 -6l-9 -6l-9 6"></path>
+									<line x1="3" y1="9" x2="3" y2="15"></line>
+									<line x1="21" y1="9" x2="21" y2="15"></line>
+									<line x1="12" y1="3" x2="12" y2="9"></line>
+									<line x1="12" y1="15" x2="12" y2="21"></line>
+								</svg></i><span class="sidemenu-label">Form-elements</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="form-advanced.html"><i><svg xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-api-app" width="24" height="24"
+									viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<path d="M12 15h-6.5a2.5 2.5 0 1 1 0 -5h.5"></path>
+									<path d="M15 12v6.5a2.5 2.5 0 1 1 -5 0v-.5"></path>
+									<path d="M12 9h6.5a2.5 2.5 0 1 1 0 5h-.5"></path>
+									<path d="M9 12v-6.5a2.5 2.5 0 0 1 5 0v.5"></path>
+								</svg></i><span class="sidemenu-label">Form-advanced</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="treeview.html"><i><svg xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-christmas-tree" width="24" height="24"
+									viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<path d="M12 3l4 4l-2 1l4 4l-3 1l4 4h-14l4 -4l-3 -1l4 -4l-2 -1z"></path>
+									<path d="M14 17v3a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-3"></path>
+								</svg></i><span class="sidemenu-label">Treeview</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="form-wizard.html"><i><svg xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-receipt" width="24" height="24"
+									viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<path
+										d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2m4 -14h6m-6 4h6m-2 4h2">
+									</path>
+								</svg></i><span class="sidemenu-label">Form-wizard</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="form-editor.html"><i><svg xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-edit" width="24" height="24" viewBox="0 0 24 24"
+									stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+									stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<path d="M7 7h-1a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-1"></path>
+									<path d="M20.385 6.585a2.1 2.1 0 0 0 -2.97 -2.97l-8.415 8.385v3h3l8.385 -8.415z">
+									</path>
+									<path d="M16 5l3 3"></path>
+								</svg></i><span class="sidemenu-label">Form-editor</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="maps.html"><i><svg xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-current-location" width="24" height="24"
+									viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<circle cx="12" cy="12" r="3"></circle>
+									<circle cx="12" cy="12" r="8"></circle>
+									<line x1="12" y1="2" x2="12" y2="4"></line>
+									<line x1="12" y1="20" x2="12" y2="22"></line>
+									<line x1="20" y1="12" x2="22" y2="12"></line>
+									<line x1="2" y1="12" x2="4" y2="12"></line>
+								</svg></i><span class="sidemenu-label">Maps</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="charts.html"><i><svg xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-chart-radar" width="24" height="24"
+									viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<path d="M12 3l9.5 7l-3.5 11h-12l-3.5 -11z"></path>
+									<path d="M12 7.5l5.5 4l-2.5 5.5h-6.5l-2 -5.5z"></path>
+									<path d="M2.5 10l9.5 3l9.5 -3"></path>
+									<path d="M12 3v10l6 8"></path>
+									<path d="M6 21l6 -8"></path>
+								</svg></i><span class="sidemenu-label">Charts</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="tables.html"><i><svg xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-table" width="24" height="24"
+									viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<rect x="4" y="4" width="16" height="16" rx="2"></rect>
+									<line x1="4" y1="10" x2="20" y2="10"></line>
+									<line x1="10" y1="4" x2="10" y2="20"></line>
+								</svg></i><span class="sidemenu-label">Tables</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="icons.html"><i><svg xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-icons" width="24" height="24"
+									viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<circle cx="6.5" cy="6.5" r="3.5"></circle>
+									<path d="M2.5 21h8l-4 -7z"></path>
+									<path d="M14 3l7 7"></path>
+									<path d="M14 10l7 -7"></path>
+									<path d="M14 14h7v7h-7z"></path>
+								</svg></i><span class="sidemenu-label">Icons</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="others.html"><i><svg xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-brand-firebase" width="24" height="24"
+									viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<path
+										d="M4.53 17.05l6.15 -11.72h-.02c.38 -.74 1.28 -1.02 2.01 -.63c.26 .14 .48 .36 .62 .62l1.06 2.01">
+									</path>
+									<path
+										d="M15.47 6.45c.58 -.59 1.53 -.59 2.11 -.01c.22 .22 .36 .5 .41 .81l1.5 9.11c.1 .62 -.2 1.24 -.76 1.54l-6.07 2.9c-.46 .25 -1.01 .26 -1.46 0l-6.02 -2.92c-.55 -.31 -.85 -.92 -.75 -1.54l1.96 -12.04c.12 -.82 .89 -1.38 1.7 -1.25c.46 .07 .87 .36 1.09 .77l1.24 1.76">
+									</path>
+									<path d="M4.57 17.18l10.93 -10.68"></path>
+								</svg></i><span class="sidemenu-label">Others</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="plugins.html"><i><svg xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-medical-cross" width="24" height="24"
+									viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<path
+										d="M13 3a1 1 0 0 1 1 1v4.535l3.928 -2.267a1 1 0 0 1 1.366 .366l1 1.732a1 1 0 0 1 -.366 1.366l-3.927 2.268l3.927 2.269a1 1 0 0 1 .366 1.366l-1 1.732a1 1 0 0 1 -1.366 .366l-3.928 -2.269v4.536a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-4.536l-3.928 2.268a1 1 0 0 1 -1.366 -.366l-1 -1.732a1 1 0 0 1 .366 -1.366l3.927 -2.268l-3.927 -2.268a1 1 0 0 1 -.366 -1.366l1 -1.732a1 1 0 0 1 1.366 -.366l3.928 2.267v-4.535a1 1 0 0 1 1 -1h2z">
+									</path>
+								</svg></i><span class="sidemenu-label">Plugins</span></a>
+					</li>
+				</ul>
+			</div>
+			<!-- #Menu -->
+		</aside>
+		<!-- #END# Left Sidebar -->
+	</section>
+
+	<section class="content mt-4 home">
+		<div class="container-fluid">
+			<div class="row clearfix">
+				<div class="col-sm-12 col-xl-9">
+					<div class="">
+						<div class="card" id="faqs">
+							<div class="header body pb-0">
+								<h5 class="mt-0">FAQ'S</h5>
+							</div>
+							<div class="card-body">
+								<div id="accordion">
+									<h5 class="faq my-3 text-primary">General Style</h5>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-1">
+											<h4>How to Change Font Style ?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-1"
+											data-parent="#accordion">
+											<h5 class="mt-0">Step 1:</h5>
+											<p>Go To <b>_variables.scss</b> <span class="text-primary ml-3">
+													(assets/scss/_variables.scss )</span> </p>
+											<p>if you want to change another font-family Go to the site <a
+													href="https://fonts.google.com/">Google Fonts</a> And Select One
+												font
+												Family and import In to style.css file </p>
+
+											<h4>How to Select font Family</h4>
+											<p><b>Example:</b></p>
+											<p><img alt="" src="assets/images/0-2.jpg" class="border w-100"></p>
+											<h5>Step 2:</h5>
+											<p>And paste Your Selected font-family in _variables.scss i.e
+												(root:-assets/scss/_variables.scss)</p>
+											<p><b>Example:</b></p>
+											<p>Before : @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');</p>
+
+
+											<p>After : @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');</p>
+
+											<h5>Step 3:</h5>
+											<p>And add the Your Selected font-family in
+												_bootstrap-styles.scss(assets/scss/bootstrap/_bootstrap-styles.scss)</p>
+											<p><b>Example:</b></p>
+											<figure class="highlight clip-widget mb-0">
+												<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">
+
+													body {
+														margin: 0;
+														font-family: 'Roboto', sans-serif;
+														font-size: 0.875rem;
+														font-weight: 400;
+														line-height: 1.5;
+														color: $color;
+														text-align: start;
+														background-color: $white;
+													  }
+	</code>
+</pre>
+											</figure>
+										</div>
+									</div>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-4">
+											<h4>How to Change Logo ?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-4"
+											data-parent="#accordion">
+											<p class="mb-0">Go To "<b>assets/images/brand</b>" folder and replace your
+												logo
+												with Previous Logos within in image size.
+												<b>Note:</b> Please don't increase logo sizes. Replace your logo within given
+												image size. otherwise the logo will not fit in particular place it
+												disturbs the template design.
+										</div>
+									</div>
+
+									<h5 class="faq my-3 text-primary"> LTR Version to RTL Version </h5>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-3449">
+											<h4>How to Enable RTL version?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-3449"
+											data-parent="#accordion">
+											<div class="">
+												<p> open <b>custom-switcher.js</b>
+													<code>path:(Dashlead/assets/js/custom-switcher.js)</code>file
+													and remove
+													comments for <code> html.setAttribute("dir" , "rtl")</code> to
+													enable RTL
+													version.
+												</p>
+
+												<!-- Prism Code -->
+												<figure class="highlight clip-widget mb-0">
+													<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">//LTR to RTL
+if (!localStorage.getItem("dashleadrtl")) {
+	// html.setAttribute("dir" , "rtl") // for rtl version
+}</script></code></pre>
+												</figure>
+												<!-- End Prism Precode -->
+
+											</div>
+										</div>
+
+									</div>
+
+
+
+									<h5 class="faq my-3 text-primary"> Light Theme & Dark Theme </h5>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-33">
+											<h4>How to Enable Light Theme?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-33"
+											data-parent="#accordion">
+											<div class="">
+												<p> open <b>custom-switcher.js</b>
+													<code>path:(Dashlead/assets/js/custom-switcher.js)</code>file
+													and remove
+													comments for <code> html.setAttribute("data-theme-color" , "light")</code> to
+													enable Light Theme.
+												</p>
+
+												<!-- Prism Code -->
+												<figure class="highlight clip-widget mb-0">
+													<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">//Light Theme Style
+if (!localStorage.getItem("dashleadlighttheme")) {
+	// html.setAttribute("data-theme-color" , "light") // for light theme
+}</script></code></pre>
+												</figure>
+												<!-- End Prism Precode -->
+
+											</div>
+										</div>
+
+									</div><div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-34">
+											<h4>How to Enable Dark Theme?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-34"
+											data-parent="#accordion">
+											<div class="">
+												<p> open <b>custom-switcher.js</b>
+													<code>path:(Dashlead/assets/js/custom-switcher.js)</code>file
+													and remove
+													comments for <code> html.setAttribute("data-theme-color" , "dark")</code> to
+													enable Dark Theme.
+												</p>
+
+												<!-- Prism Code -->
+												<figure class="highlight clip-widget mb-0">
+													<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">//Dark Theme Style
+if (!localStorage.getItem("dashleaddarktheme")) {
+	// html.setAttribute("data-theme-color" , "dark") // for Dark theme
+}</script></code></pre>
+												</figure>
+												<!-- End Prism Precode -->
+
+											</div>
+										</div>
+
+									</div>
+
+									<h5 class="faq my-3 text-primary"> Menus Styles </h5>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-35">
+											<h4>How to Enable Menu Styles ?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-35"
+											data-parent="#accordion">
+											<div class="">
+												<p> open <b>custom-switcher.js</b>
+													<code>path:(Dashlead/assets/js/custom-switcher.js)</code>file
+													and remove
+													comments for any <code> data-menu-style</code> to
+													enable Menu Styles.
+												</p>
+
+												<!-- Prism Code -->
+												<figure class="highlight clip-widget mb-0">
+													<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">
+	//Menu Styles
+    if (!localStorage.getItem("dashleadMenu")) {
+        // html.setAttribute("data-menu-style" , "light") // for light menu style
+        // html.setAttribute("data-menu-style" , "dark") // for dark menu style
+        // html.setAttribute("data-menu-style" , "color") // for color menu style
+        // html.setAttribute("data-menu-style" , "gradient") // for gradient menu style
+    }
+}</script></code></pre>
+												</figure>
+												<!-- End Prism Precode -->
+
+											</div>
+										</div>
+									</div>
+
+									<h5 class="faq my-3 text-primary"> Headers Styles </h5>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-36">
+											<h4>How to Enable Headers Styles ?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-36"
+											data-parent="#accordion">
+											<div class="">
+												<p> open <b>custom-switcher.js</b>
+													<code>path:(Dashlead/assets/js/custom-switcher.js)</code>file
+													and remove
+													comments for any <code> data-header-style</code> to
+													enable Headers Styles.
+												</p>
+
+												<!-- Prism Code -->
+												<figure class="highlight clip-widget mb-0">
+													<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">
+	//Header Styles
+    if (!localStorage.getItem("dashleadHeader")) {
+        // html.setAttribute("data-header-style" , "light") // for light header style
+        // html.setAttribute("data-header-style" , "dark") // for dark header style
+        // html.setAttribute("data-header-style" , "color") // for color header style
+        // html.setAttribute("data-header-style" , "gradient") // for gradient header style
+    }
+}</script></code></pre>
+												</figure>
+												<!-- End Prism Precode -->
+
+											</div>
+										</div>
+									</div>
+
+									<h5 class="faq my-3 text-primary">Switcher Styles</h5>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-15">
+											<h4>How to Enable Boxed-Layout?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-15"
+											data-parent="#accordion">
+											<p> open <b>custom-switcher.js</b>
+												<code>path:(Dashlead/assets/js/custom-switcher.js)</code>file and
+												remove
+												comments for <code>html.setAttribute("data-width" , "boxed")</code> to
+												enable layout-boxed style
+											</p>
+
+											<!-- Prism Code -->
+											<figure class="highlight clip-widget mb-0">
+												<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">//Boxed styles
+if (!localStorage.getItem("dashleadboxed")) {
+// html.setAttribute("data-width" , "boxed") // for boxed style
+}</script></code></pre>
+											</figure>
+											<!-- End Prism Precode -->
+										</div>
+									</div>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-18">
+											<h4>How to Enable Scrollable-Layout?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-18"
+											data-parent="#accordion">
+											<p> open <b>custom-switcher.js</b>
+												<code>path:(Dashlead/assets/js/custom-switcher.js)</code>
+												file and remove comments for
+												<code>html.setAttribute("data-position" , "scrollable")</code> to enable
+												scrollable-layout style
+											</p>
+
+											<!-- Prism Code -->
+											<figure class="highlight clip-widget mb-0">
+												<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">//Scrollabel styles
+if (!localStorage.getItem("dashleadscrollable")) {
+	// html.setAttribute("data-position" , "scrollable") // for scrollable style
+}</script></code></pre>
+											</figure>
+											<!-- End Prism Precode -->
+
+										</div>
+									</div>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-32">
+											<h4>How to Enable No-Shadow Styles ?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-32"
+											data-parent="#accordion">
+											<p> open <b>custom-switcher.js</b>
+												<code>path:(Dashlead/assets/js/custom-switcher.js)</code>
+												file and remove comments for
+												<code>html.setAttribute("data-skins" , "no-shadow")</code> to enable
+												No-shadow styles
+											</p>
+
+											<!-- Prism Code -->
+											<figure class="highlight clip-widget mb-0">
+												<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">//No-Shadow styles
+if (!localStorage.getItem("dashleadnoshadow")) {
+	// html.setAttribute("data-skins" , "no-shadow") // for No-shadow styles
+}</script></code></pre>
+											</figure>
+											<!-- End Prism Precode -->
+
+										</div>
+									</div>
+
+									<h5 class="faq my-3 text-primary">Vertical Menu Styles</h5>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-19">
+											<h4>How to Enable Default Layout Styles?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-19"
+											data-parent="#accordion">
+											<p> open <b>custom-switcher.js</b>
+												<code>path:(Dashlead/assets/js/custom-switcher.js)</code>
+												file and remove comments for
+												<code>html.setAttribute("data-vertical-style" , "default")</code>
+												and also <code>html.setAttribute("data-layout" , "vertical")</code>
+												to enable Default Layout style
+											</p>
+											<!-- Prism Code -->
+											<figure class="highlight clip-widget mb-0">
+												<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">//Vertical Layout
+if (!localStorage.getItem("dashleadlayout")) {
+	// html.setAttribute("data-layout" , "vertical") // for Vertical layout
+	// html.setAttribute("data-layout" , "horizontal") // for horizontal layout
+}
+
+//Default Layout Styles
+if (!localStorage.getItem("dashleadverticalstyles")) {
+	// html.setAttribute("data-vertical-style" , "default") // for Vertical default style
+}</script></code></pre>
+											</figure>
+											<!-- End Prism Precode -->
+
+										</div>
+									</div>
+
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-37">
+											<h4>How to Enable Closed Layout Styles?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-37"
+											data-parent="#accordion">
+											<p> open <b>custom-switcher.js</b>
+												<code>path:(Dashlead/assets/js/custom-switcher.js)</code>
+												file and remove comments for
+												<code>dashleadverticalstyles</code>
+												and also <code>html.setAttribute("data-layout" , "vertical")</code>
+												to enable Closed Layout style
+											</p>
+											<!-- Prism Code -->
+											<figure class="highlight clip-widget mb-0">
+												<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">//Vertical Layout
+if (!localStorage.getItem("dashleadlayout")) {
+	// html.setAttribute("data-layout" , "vertical") // for Vertical layout
+	// html.setAttribute("data-layout" , "horizontal") // for horizontal layout
+}
+
+//Closed Layout Styles
+if (!localStorage.getItem("dashleadverticalstyles")) {
+	// html.setAttribute("data-vertical-style" , "closed") // for Vertical closed style
+	// $('body').addClass('sidenav-toggled');
+}</script></code></pre>
+											</figure>
+											<!-- End Prism Precode -->
+
+										</div>
+									</div>
+
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-38">
+											<h4>How to Enable IconText Layout Styles?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-38"
+											data-parent="#accordion">
+											<p> open <b>custom-switcher.js</b>
+												<code>path:(Dashlead/assets/js/custom-switcher.js)</code>
+												file and remove comments for
+												<code>dashleadverticalstyles</code>
+												and also <code>html.setAttribute("data-layout" , "vertical")</code>
+												to enable IconText Layout style
+											</p>
+											<!-- Prism Code -->
+											<figure class="highlight clip-widget mb-0">
+												<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">//Vertical Layout
+if (!localStorage.getItem("dashleadlayout")) {
+	// html.setAttribute("data-layout" , "vertical") // for Vertical layout
+	// html.setAttribute("data-layout" , "horizontal") // for horizontal layout
+}
+
+//IconText Layout Styles
+if (!localStorage.getItem("dashleadverticalstyles")) {
+	// html.setAttribute("data-vertical-style" , "icontext") // for Vertical icontext style
+	// textLayoutFn();
+}</script></code></pre>
+											</figure>
+											<!-- End Prism Precode -->
+
+										</div>
+									</div>
+
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-39">
+											<h4>How to Enable Overlay Layout Styles?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-39"
+											data-parent="#accordion">
+											<p> open <b>custom-switcher.js</b>
+												<code>path:(Dashlead/assets/js/custom-switcher.js)</code>
+												file and remove comments for
+												<code>dashleadverticalstyles</code>
+												and also <code>html.setAttribute("data-layout" , "vertical")</code>
+												to enable Overlay Layout style
+											</p>
+											<!-- Prism Code -->
+											<figure class="highlight clip-widget mb-0">
+												<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">//Vertical Layout
+if (!localStorage.getItem("dashleadlayout")) {
+	// html.setAttribute("data-layout" , "vertical") // for Vertical layout
+	// html.setAttribute("data-layout" , "horizontal") // for horizontal layout
+}
+
+//Overlay Layout Styles
+if (!localStorage.getItem("dashleadverticalstyles")) {
+	// html.setAttribute("data-vertical-style" , "overlay") // for Vertical overlay style
+	// $('body').addClass('sidenav-toggled');
+}</script></code></pre>
+											</figure>
+											<!-- End Prism Precode -->
+
+										</div>
+									</div>
+
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-40">
+											<h4>How to Enable Hover Submenu Layout Styles?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-40"
+											data-parent="#accordion">
+											<p> open <b>custom-switcher.js</b>
+												<code>path:(Dashlead/assets/js/custom-switcher.js)</code>
+												file and remove comments for
+												<code>dashleadverticalstyles</code>
+												and also <code>html.setAttribute("data-layout" , "vertical")</code>
+												to enable Overlay Layout style
+											</p>
+											<!-- Prism Code -->
+											<figure class="highlight clip-widget mb-0">
+												<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">//Vertical Layout
+if (!localStorage.getItem("dashleadlayout")) {
+	// html.setAttribute("data-layout" , "vertical") // for Vertical layout
+	// html.setAttribute("data-layout" , "horizontal") // for horizontal layout
+}
+
+//Hover Submenu Layout Styles
+if (!localStorage.getItem("dashleadverticalstyles")) {
+	// html.setAttribute("data-vertical-style" , "hover") // for Vertical hover style
+	// hoverLayoutFn();
+}</script></code></pre>
+											</figure>
+											<!-- End Prism Precode -->
+
+										</div>
+									</div>
+
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-41">
+											<h4>How to Enable Hover Submenu1 Layout Styles?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-41"
+											data-parent="#accordion">
+											<p> open <b>custom-switcher.js</b>
+												<code>path:(Dashlead/assets/js/custom-switcher.js)</code>
+												file and remove comments for
+												<code>dashleadverticalstyles</code>
+												and also <code>html.setAttribute("data-layout" , "vertical")</code>
+												to enable Overlay Layout style
+											</p>
+											<!-- Prism Code -->
+											<figure class="highlight clip-widget mb-0">
+												<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">//Vertical Layout
+if (!localStorage.getItem("dashleadlayout")) {
+	// html.setAttribute("data-layout" , "vertical") // for Vertical layout
+	// html.setAttribute("data-layout" , "horizontal") // for horizontal layout
+}
+
+//Hover Submenu1 Layout Styles
+if (!localStorage.getItem("dashleadverticalstyles")) {
+	// html.setAttribute("data-vertical-style" , "hover1") // for Vertical hover style
+	// hoverLayoutFn();
+}</script></code></pre>
+											</figure>
+											<!-- End Prism Precode -->
+
+										</div>
+									</div>
+
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-42">
+											<h4>How to Enable Double Menu Layout Styles?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-42"
+											data-parent="#accordion">
+											<p> open <b>custom-switcher.js</b>
+												<code>path:(Dashlead/assets/js/custom-switcher.js)</code>
+												file and remove comments for
+												<code>dashleadverticalstyles</code>
+												and also <code>html.setAttribute("data-layout" , "vertical")</code>
+												to enable Overlay Layout style
+											</p>
+											<!-- Prism Code -->
+											<figure class="highlight clip-widget mb-0">
+												<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">//Vertical Layout
+if (!localStorage.getItem("dashleadlayout")) {
+	// html.setAttribute("data-layout" , "vertical") // for Vertical layout
+	// html.setAttribute("data-layout" , "horizontal") // for horizontal layout
+}
+
+//Double Menu Layout Styles
+if (!localStorage.getItem("dashleadverticalstyles")) {
+	// html.setAttribute("data-vertical-style" , "doublemenu") // for Vertical doublemenu style
+	// doubleLayoutFn();
+}</script></code></pre>
+											</figure>
+											<!-- End Prism Precode -->
+
+										</div>
+									</div>
+
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-43">
+											<h4>How to Enable Double Menu with Tabs Layout Styles?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-43"
+											data-parent="#accordion">
+											<p> open <b>custom-switcher.js</b>
+												<code>path:(Dashlead/assets/js/custom-switcher.js)</code>
+												file and remove comments for
+												<code>dashleadverticalstyles</code>
+												and also <code>html.setAttribute("data-layout" , "vertical")</code>
+												to enable Overlay Layout style
+											</p>
+											<!-- Prism Code -->
+											<figure class="highlight clip-widget mb-0">
+												<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">//Vertical Layout
+if (!localStorage.getItem("dashleadlayout")) {
+	// html.setAttribute("data-layout" , "vertical") // for Vertical layout
+	// html.setAttribute("data-layout" , "horizontal") // for horizontal layout
+}
+
+//Double Menu Layout Styles
+if (!localStorage.getItem("dashleadverticalstyles")) {
+	// html.setAttribute("data-vertical-style" , "doublemenu-tabs") // for Vertical doublemenu style
+	// doubleLayoutFn();
+}</script></code></pre>
+											</figure>
+											<!-- End Prism Precode -->
+
+										</div>
+									</div>
+
+									<h5 class="faq my-3 text-primary">Horizontal Click & Horizontal Hover styles</h5>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-202">
+											<h4>How to Enable Horizontal layout</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-202"
+											data-parent="#accordion">
+											<p> open <b>custom-switcher.js</b>
+												<code>path:(Dashlead/assets/js/custom-switcher.js)</code>
+												file and remove comments for
+												<code>html.setAttribute("data-layout" , "horizontal")</code>
+												and any <code> data-hor-style </code> to enable
+												Horizontal layout style
+											</p>
+											<!-- Prism Code -->
+											<figure class="highlight clip-widget mb-0">
+												<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">//Menu Layout
+if (!localStorage.getItem("dashleadlayout")) {
+	// html.setAttribute("data-layout" , "vertical") // for Vertical layout
+	// html.setAttribute("data-layout" , "horizontal") // for horizontal layout
+}
+
+//horizontalmenu Layout Styles
+if (!localStorage.getItem("dashleadlayout") === "horizontal" || localStorage.getItem("dashleadlayout") == null) {
+	// html.setAttribute("data-hor-style" , "hor-click") // for horizontal click style
+	// html.setAttribute("data-hor-style" , "hor-hover") // for horizontal hover style
+}</script></code></pre>
+											</figure>
+											<!-- End Prism Precode -->
+
+											<p> Note:-when horizontal layout is in active all the data-vertical-style
+												will not be in active </p>
+
+										</div>
+									</div>
+									<h5 class="faq my-3 text-primary">Theme Primary Colors</h5>
+									<div id="accordion">
+										<div class="accordion">
+											<div class="accordion-header" data-toggle="collapse"
+												data-target="#panel-body-31">
+												<h4>How to Change Complete Theme Primary Colors ?</h4>
+											</div>
+											<div class="accordion-body collapse border border-top-0" id="panel-body-31"
+												data-parent="#accordion">
+												<h6 class="mt-0">Please follow the below steps to change <b>complete
+														theme
+														colors</b></h6>
+												<p>To change <b>complete theme colors</b> you have to open
+													<b>_variables.scss</b> file
+												</p>
+												<p>Rootpath : <b>_variables.scss</b> <span class="text-primary ml-3">
+														(assets/scss/_variables.scss )</span> </p>
+												<p>To customize the theme colors. change colors in root
+													element :
+												</p>
+												<figure class="highlight clip-widget mb-0">
+													<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">:root {
+		/* Primary */
+		--primary-rgb: 135, 96, 251;
+		----------------
+		----------------
+		----------------
+	}
+
+	</code></pre>
+												</figure>
+												<p>
+													<b>Note : </b>After Changing color you must run gulp command's
+													. Refer gulp page for more gulp commands <a href="gulp.html">click
+														here.</a>
+												</p>
+											</div>
+										</div>
+									</div>
+
+									<h5 class="faq my-3 text-primary">Local Storage</h5>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-cookie">
+											<h4>How to clear LocalStorage (cookie)?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-cookie"
+											data-parent="#accordion">
+											<div class="">
+												<h6 class="mt-3"><b>Step1:</b></h6>
+												<p> Open <b>custom-switcher.js</b> file
+													<code>assets/js/custom-switcher.js</code></p>
+												<p>To clear LocalStorage loading functions you need to remove
+													<b>localStorageBackup() {}</b> and localStorageBackup() calling function in custom-switcher.js as shown
+													below</p>
+
+												<!-- Prism Code -->
+												<figure class="highlight clip-widget mb-0">
+<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">
+
+
+function localStorageBackup() {
+    // if there is a value stored, update color picker and background color
+    // Used to retrive the data from local storage
+
+    if (localStorage.dashleaddarktheme) {
+        let html = document.querySelector('html');
+        html.setAttribute('data-theme-color', 'dark');
+    }
+    if (localStorage.dashleadrtl) {
+        let html = document.querySelector('html');
+        html.setAttribute('dir', 'rtl');
+    }
+    if (localStorage.dashleadlayout) {
+        let html = document.querySelector('html');
+        let layoutValue = localStorage.getItem('dashleadlayout');
+        html.setAttribute('data-layout', 'horizontal');
+        switch (layoutValue) {
+            case 'horizontal':
+                html.setAttribute('data-hor-style', 'hor-click');
+                break;
+            case 'horizontalhover':
+                html.setAttribute('data-hor-style', 'hor-hover');
+                break;
+        }
+    }
+    if (localStorage.dashleadverticalstyles) {
+        let html = document.querySelector('html');
+        let verticalStyles = localStorage.getItem('dashleadverticalstyles');
+        if (!(document.body.classList.contains('login-img'))) {
+            switch (verticalStyles) {
+                case 'closed':
+                    hoverLayoutFn();
+                    html.setAttribute('data-vertical-style', 'closed');
+                    break;
+                case 'icontext':
+                    textLayoutFn();
+                    html.setAttribute('data-vertical-style', 'icontext');
+                    break;
+                case 'overlay':
+                    hoverLayoutFn();
+                    html.setAttribute('data-vertical-style', 'overlay');
+                    break;
+                case 'hover':
+                    hoverLayoutFn();
+                    html.setAttribute('data-vertical-style', 'hover');
+                    break;
+                case 'hover1':
+                    html.setAttribute('data-vertical-style', 'hover1');
+                    hoverLayoutFn();
+                    break;
+                case 'doublemenu':
+                    html.setAttribute('data-vertical-style', 'doublemenu');
+                    doubleLayoutFn();
+                    break;
+                case 'doublemenu-tabs':
+                    html.setAttribute('data-vertical-style', 'doublemenu-tabs');
+                    doubleLayoutFn();
+                    break;
+
+            }
+        }
+    }
+    if (localStorage.dashleadnoshadow) {
+        let html = document.querySelector('html');
+        html.setAttribute('data-skins', 'no-shadow');
+    }
+    if (localStorage.dashleadboxed) {
+        let html = document.querySelector('html');
+        html.setAttribute('data-width', 'boxed');
+    }
+    if (localStorage.dashleadscrollable) {
+        let html = document.querySelector('html');
+        html.setAttribute('data-position', 'scrollable');
+    }
+    if (localStorage.dashleadcenterlogo) {
+        let html = document.querySelector('html');
+        html.setAttribute('data-logo', 'centerlogo');
+    }
+    if (localStorage.dashleadMenu) {
+        let html = document.querySelector('html');
+        let menuValue = localStorage.getItem('dashleadMenu');
+        switch (menuValue) {
+            case 'light':
+                html.setAttribute('data-menu-style', 'light');
+                break;
+            case 'dark':
+                html.setAttribute('data-menu-style', 'dark');
+                break;
+            case 'color':
+                html.setAttribute('data-menu-style', 'color');
+                break;
+            case 'gradient':
+                html.setAttribute('data-menu-style', 'gradient');
+                break;
+
+            default:
+                break;
+        }
+    }
+    if (localStorage.dashleadHeader) {
+        let html = document.querySelector('html');
+        let headerValue = localStorage.getItem('dashleadHeader');
+        switch (headerValue) {
+            case 'light':
+                html.setAttribute('data-header-style', 'light');
+                break;
+            case 'dark':
+                html.setAttribute('data-header-style', 'dark');
+                break;
+            case 'color':
+                html.setAttribute('data-header-style', 'color');
+                break;
+            case 'gradient':
+                html.setAttribute('data-header-style', 'gradient');
+                break;
+
+            default:
+                break;
+        }
+    }
+    if (localStorage.dashleadprimaryColor) {
+        if (document.getElementById('colorID')) {
+            document.getElementById('colorID').value = localStorage.dashleadprimaryColor;
+        }
+        document.querySelector('html').style.setProperty('--primary-rgb', localStorage.dashleadprimaryColor);
+    }
+    if (localStorage.dashleadtransparentBgColor) {
+        document.querySelector('html').style.setProperty('--primary-bg-rgb', localStorage.dashleadtransparentBgColor);
+        document.querySelector('html').style.setProperty('--white', localStorage.dashleadtransparentBgColor);
+        document.querySelector('html').style.setProperty('--menu-bg', localStorage.dashleadtransparentBgColor);
+        document.querySelector('html').style.setProperty('--header-bg', localStorage.dashleadtransparentBgColor);
+        document.querySelector('html').style.setProperty('--white', localStorage.dashleadtransparentBgColor);
+        let html = document.querySelector('html');
+        html.setAttribute('data-theme-color', 'dark');
+        $('#switchbtn-dark').prop('checked', true);
+        $('#switchbtn-darkmenu').prop('checked', true);
+        $('#switchbtn-darkheader').prop('checked', true);
+
+        localStorage.removeItem("dashleadHeader", 'dark');
+        localStorage.removeItem("dashleadMenu", 'dark');
+        localStorage.removeItem("dashleadHeader", 'light');
+        localStorage.removeItem("dashleadMenu", 'light');
+    }
+}
+
+</script></code></pre>
+												</figure>
+												<!-- End Prism Precode -->
+												<h6 class="mt-3"><b>Step2:</b></h6>
+												<p>To remove complete <b>LocalStorage</b> saving you need to remove all
+													localstorage related calling functions in <b>custom-switcher.js</b>
+													<code>assets/js/custom-switcher.js</code> files.
+												</p>
+												<p><b>LocalStorage</b> related functions like localStorage.setItem,
+													localStorage.removeItem, localStorage.getItem, localStorage.clear.
+													Below are the some examples to find out.
+												</p>
+												<!-- Prism Code -->
+												<figure class="highlight clip-widget mb-0">
+													<pre title="jQuery" class="javascript" data-codetype="JQueryku"><code class="language-javascript">
+localStorage.setItem("----", true);
+localStorage.removeItem("----");
+localStorage.getItem("----");
+</script></code></pre>
+												</figure>
+												<!-- End Prism Precode -->
+											</div>
+										</div>
+
+									</div>
+
+									<h5 class="faq my-3 text-primary">Menu Icons</h5>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-menu">
+											<h4>Which Icons Are Used For Sidemenu ?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-menu"
+											data-parent="#accordion">
+											<div class="">
+												<p>Feather Icons are used for sidemenu </p>
+												<p>
+													you can find these icons in the link :-
+													<a href="https://feathericons.com/" target="_blank">https://feathericons.com/</a>
+												</p>
+											</div>
+										</div>
+
+									</div>
+
+									<h5 class="faq my-3 text-primary">Removing Double-Menu with Tabs </h5>
+									<div class="accordion">
+										<div class="accordion-header" data-toggle="collapse"
+											data-target="#panel-body-doublemenutabs">
+											<h4>How to remove double menu with tabs content in Sidemenu section?</h4>
+										</div>
+										<div class="accordion-body collapse border border-top-0" id="panel-body-doublemenutabs"
+											data-parent="#accordion">
+											<h6 class="mt-0">Please follow the below steps to remove <b>tab-content</b> in Sidemenu section.</h6>
+											<p>
+												<b>Note : </b> If you dont want to use double menu with tabs then follow the below process to remove extra tab-content which is available in <code>empty.html</code> page.
+											</p>
+											<h6 class="mt-3"><b>Step 1 :</b></h6>
+											<p> In all HTML pages except <code>empty.html</code> just remove the <b>Sidemenu</b> section
+												 and replace as shown by next step.
+											</p>
+											<h6 class="mt-3"><b>Step 2 :</b></h6>
+											<p> In <code>empty.html</code> page, copy <b>Sidemenu</b> section and replace in all HTML pages where <b>Sidemenu</b> section is available. </p>
+
+											<h6 class="mt-3"><b>Sample Sidemenu code :</b></h6>
+											<p>
+
+<figure class="highlight clip-widget mb-0">
+	<pre class="language-css line-numbers language-markup ml-0">
+		<code class="language-css language-markup">
+			<script type="html-Dashlead/script">
+<!-- Sidemenu opened-->
+	<div class="sticky">
+		<aside class="app-sidebar ps horizontal-main">
+			<div class="app-sidebar__header">
+				<a class="main-logo" href="index.html">
+					<img src="../assets/images/brand/logo.png" class="desktop-logo desktop-logo-dark" alt="dashleadlogo">
+					<img src="../assets/images/brand/logo1.png" class="desktop-logo" alt="dashleadlogo">
+					<img src="../assets/images/brand/favicon.png" class="mobile-logo mobile-logo-dark" alt="dashleadlogo">
+					<img src="../assets/images/brand/favicon1.png" class="mobile-logo" alt="dashleadlogo">
+				</a>
+			</div>
+			<div class="main-sidemenu">
+				<div class="slide-left disabled" id="slide-left">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width="24" height="24" viewBox="0 0 24 24">
+						<path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"></path>
+					</svg>
+				</div>
+				<ul class="side-menu">
+					<li class="side-item side-item-category">Dashboard</li>
+					<li class="slide">
+						<a class="side-menu__item" data-bs-toggle="slide" href="index.html">
+							<span class="side-menu__icon">
+								<i class="fe fe-airplay side_menu_img"></i>
+							</span>
+							<span class="side-menu__label">Dashboard</span>
+						</a>
+					</li>
+					<li class="side-item side-item-category">Applications</li>
+					<li class="slide">
+						<a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0);">
+							<span class="side-menu__icon"><i class="fe fe-box side_menu_img"></i></span>
+							<span class="side-menu__label">Apps</span><i class="angle fa fa-angle-right"></i>
+						</a>
+						<ul class="slide-menu">
+							<li>
+								<ul class="sidemenu-list">
+									<li class="side-menu__label1"><a href="javascript:void(0)">Apps</a></li>
+									<li class="sub-slide">
+										<a class="slide-item side-menu__item-sub" data-bs-toggle="sub-slide" href="javascript:void(0)">
+											<span class="sub-side-menu__label">Mail</span>
+											<i class="sub-angle fe fe-chevron-down"></i>
+										</a>
+										<ul class="sub-slide-menu">
+											<li><a class="sub-side-menu__item" href="mail-inbox.html">Mail Inbox</a></li>
+											<li><a class="sub-side-menu__item" href="mail-compose.html">Mail compose</a></li>
+											<li><a class="sub-side-menu__item" href="view-mail.html">Mail View</a></li>
+										</ul>
+									</li>
+									<li><a href="chat.html" class="slide-item">Chat</a></li>
+									<li><a href="cards.html" class="slide-item">Cards</a></li>
+									<li><a href="treeview.html" class="slide-item">Treeview</a></li>
+									<li><a href="contacts.html" class="slide-item">Contacts</a></li>
+									<li><a href="default-calendar.html" class="slide-item">Default Calendar</a></li>
+									<li><a href="full-calendar.html" class="slide-item">Full Calendar</a></li>
+									<li><a href="notifications.html" class="slide-item">Notifications</a></li>
+									<li><a href="range-slider.html" class="slide-item">Range Sliders</a></li>
+									<li><a href="footer.html" class="slide-item">Footers</a></li>
+									<li><a href="crypto-currencies.html" class="slide-item">Crypto Currencies</a></li>
+									<li><a href="colors.html" class="slide-item">Colors</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li class="slide">
+						<a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0);">
+							<span class="side-menu__icon"><i class="fe fe-award side_menu_img"></i></span>
+							<span class="side-menu__label">Icons</span><i class="angle fa fa-angle-right"></i>
+						</a>
+						<ul class="slide-menu">
+							<li>
+								<ul class="sidemenu-list">
+									<li class="side-menu__label1"><a href="javascript:void(0)">Icons</a></li>
+									<li><a href="icons.html" class="slide-item">Fontawesome Icons</a></li>
+									<li><a href="icons-2.html" class="slide-item">Ionicons Icons</a></li>
+									<li><a href="typ-icons.html" class="slide-item">Typicon Icons</a></li>
+									<li><a href="feather-icons.html" class="slide-item">Feather Icons</a></li>
+									<li><a href="material-icons.html" class="slide-item">MaterialDesign Icons</a></li>
+									<li><a href="simple-icons.html" class="slide-item">Simpleline Icons</a></li>
+									<li><a href="pe7-icons.html" class="slide-item">Pe7 Icons</a></li>
+									<li><a href="themify-icons.html" class="slide-item">Themify Icons</a></li>
+									<li><a href="weather-icons.html" class="slide-item">Weather Icons</a></li>
+									<li><a href="bootstrap-icons.html" class="slide-item">Bootstrap Icons</a></li>
+									<li><a href="flags-icons.html" class="slide-item">Flag Icons</a></li>
+								</ul>
+							</li>
+
+						</ul>
+					</li>
+					--------------
+					--------------
+					--------------
+				</ul>
+			</div>
+		</aside>
+	</div>
+<!-- Sidemenu closed -->
+			</script>
+		</code>
+	</pre>
+</figure>
+
+											</p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-12 d-none d-xl-block custom-leftnav">
+					<div class="main-content-left-components">
+
+						<div class="card  bg-warning-transparent border-warning shadow-none" id="license-terms2">
+							<div class="">
+								<h6 class="mt-0 mb-3 text-danger font-bold">Important License Terms</h6>
+							</div>
+							<div class="card-body p-0">
+								<ul class="">
+									<li class="mb-2">You cannot charge from your end product end users with a
+										<strong>Regular License</strong>.
+									</li>
+									<li class="mb-2">
+										If you want to collect payments from end product end users then you
+										must buy an <strong>Extended License</strong> for each of the end product.
+									</li>
+									<li class="mb-2">
+										You must buy one license for one domain only.<strong>(i.e Either Regular or
+											Extended)</strong>
+									</li>
+									<li>
+										You cannot use Multi Domain,Multi Client, Multiple end Products with
+										any of the licenses <strong>(i.e Either Regular or Extended).</strong>
+									</li>
+								</ul>
+								<p class="mb-0">For more details <strong class="">please click the </strong><a class="" target="_blank" style="text-decoration:underline;" href="https://spruko.com/licenses-details">link</a>  </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="color-bg">
+		<div class="sidebar__toggle" data-toggle="sidebar">
+			<a class="open-toggle" href="javascript:void(0);"><i class="fe fe-menu"></i></a>
+		</div>
+		<ul class="nav navbar-nav">
+			<li class="nav-item mr-8"><a class="btn btn-danger text-white" href=" https://spruko.com/licenses" target="_blank"><i class="icon-help2"></i>Licenses</a></li>
+			<li class="nav-item mr-8"><a class="btn btn-success text-white" href=" https://spruko.com/support" target="_blank"><i class="icon-help2"></i>Support Policy</a></li>
+			<li class="nav-item"><a class="btn btn-warning mr-3" href="https://1.envato.market/MGEaN" target="_blank"><i class="icon-bag3"></i> Portfolio</a></li>
+		</ul>
+	</div>
+
+	<!-- Jquery Core Js -->
+	<script src="assets/bundles/libscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js -->
+	<script src="assets/bundles/morphingsearchscripts.bundle.js"></script> <!-- morphing search Js -->
+	<script src="assets/bundles/vendorscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js -->
+	<script src="assets/bundles/mainscripts.bundle.js"></script><!-- Custom Js -->
+
+	<!-- Internal Prism js-->
+	<script src="assets/plugins/prism/prism.js"></script>
+
+	<!-- Treeview js-->
+	<script src="assets/plugins/treeview-prism/prism.js"></script>
+	<script src="assets/plugins/treeview-prism/prism-treeview.js"></script>
+
+	<!-- Perfectscroll js-->
+	<script src="assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+	<script src="assets/plugins/perfect-scrollbar/p-scroll.js"></script>
+
+	<!-- Custom js-->
+	<script src="assets/js/custom.js"></script>
+	<script src="assets/js/menuspy.min.js.js"></script>
+
+	<script>
+		var elm = document.querySelector('#main-menu');
+		var ms = new MenuSpy(elm);
+
+		(function () {
+
+			if (typeof self === 'undefined' || !self.Prism || !self.document) {
+				return;
+			}
+
+			/**
+			 * Class name for <pre> which is activating the plugin
+			 * @type {String}
+			 */
+			var PLUGIN_CLASS = 'line-numbers';
+
+			/**
+			 * Resizes line numbers spans according to height of line of code
+			 * @param  {Element} element <pre> element
+			 */
+			var _resizeElement = function (element) {
+				var codeStyles = getStyles(element);
+				var whiteSpace = codeStyles['white-space'];
+
+				if (whiteSpace === 'pre-wrap' || whiteSpace === 'pre-line') {
+					var codeElement = element.querySelector('code');
+					var lineNumbersWrapper = element.querySelector('.line-numbers-rows');
+					var lineNumberSizer = element.querySelector('.line-numbers-sizer');
+					var codeLines = element.textContent.split('\n');
+
+					if (!lineNumberSizer) {
+						lineNumberSizer = document.createElement('span');
+						lineNumberSizer.className = 'line-numbers-sizer';
+
+						codeElement.appendChild(lineNumberSizer);
+					}
+
+					lineNumberSizer.style.display = 'block';
+
+					codeLines.forEach(function (line, lineNumber) {
+						lineNumberSizer.textContent = line || '\n';
+						var lineSize = lineNumberSizer.getBoundingClientRect().height;
+						lineNumbersWrapper.children[lineNumber].style.height = lineSize + 'px';
+					});
+
+					lineNumberSizer.textContent = '';
+					lineNumberSizer.style.display = 'none';
+				}
+			};
+
+			/**
+			 * Returns style declarations for the element
+			 * @param {Element} element
+			 */
+			var getStyles = function (element) {
+				if (!element) {
+					return null;
+				}
+
+				return window.getComputedStyle ? getComputedStyle(element) : (element.currentStyle || null);
+			};
+
+			window.addEventListener('resize', function () {
+				Array.prototype.forEach.call(document.querySelectorAll('pre.' + PLUGIN_CLASS), _resizeElement);
+			});
+
+			Prism.hooks.add('complete', function (env) {
+				if (!env.code) {
+					return;
+				}
+
+				// works only for <code> wrapped inside <pre> (not inline)
+				var pre = env.element.parentNode;
+				// Original regex check for class, leaving it here
+				// for its redundancy check
+				var clsReg = /\s*\bline-numbers\b\s*/;
+				// New regex check for opt-out class
+				var clsRegB = /\s*\bno-line-numbers\b\s*/;
+
+				if (env.element.querySelector(".line-numbers-rows")) {
+					// Abort if line numbers already exists
+					return;
+				}
+
+				// Added to facilitate opting out
+				if (clsRegB.test(pre.className)) {
+					// Respect the opt-out
+					return;
+				}
+
+				if (clsReg.test(env.element.className)) {
+					// Remove the class "line-numbers" from the <code>
+					env.element.className = env.element.className.replace(clsReg, ' ');
+				}
+				if (!clsReg.test(pre.className)) {
+					// Add the class "line-numbers" to the <pre>
+					pre.className += ' line-numbers';
+				}
+
+				var match = env.code.match(/\n(?!$)/g);
+				var linesNum = match ? match.length + 1 : 1;
+				var lineNumbersWrapper;
+
+				var lines = new Array(linesNum + 1);
+				lines = lines.join('<span></span>');
+
+				lineNumbersWrapper = document.createElement('span');
+				lineNumbersWrapper.setAttribute('aria-hidden', 'true');
+				lineNumbersWrapper.className = 'line-numbers-rows';
+				lineNumbersWrapper.innerHTML = lines;
+
+				if (pre.hasAttribute('data-start')) {
+					pre.style.counterReset = 'linenumber ' + (parseInt(pre.getAttribute('data-start'), 10) - 1);
+				}
+
+				env.element.appendChild(lineNumbersWrapper);
+
+				_resizeElement(pre);
+			});
+
+		}());
+	</script>
+
+</body>
+
+</html>

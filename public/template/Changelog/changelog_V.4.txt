@@ -1,0 +1,79 @@
+********************************************************************************************************
+Project Name: Dashlead - Bootstrap 5 Responsive Admin Dashboard HTML5 Template
+
+Version : V.4
+
+Updated-date:  10-Febraury-2023 
+
+
+Updates :- 
+	
+	1) Updated Switcher.
+	2) Updated Header.
+        3) Added some HTML Pages
+	4) Updated some js files in js folder.
+	5) Updated total Sidemenu.
+	6) Updated main-sidebar section in HTML Pages.
+	7) Documentation and gulp file is updated.
+
+********************************************************************************************************
+----------------------------------------------------------------------
+1) Updated Switcher.
+----------------------------------------------------------------------
+	New switcher styles are added
+	
+	Vertical Double Menu and Vertical Double Menu with Tabs.
+	added Shadow and no shadow styles.
+
+----------------------------------------------------------------------
+2) Updated Header.
+----------------------------------------------------------------------
+	Added shopping-cart dropdown, and country selector modal.
+
+----------------------------------------------------------------------
+3) Added some Html Pages.
+----------------------------------------------------------------------
+	New Html pages are added in Dashlead .please follow below
+	
+		1) Add-product.html
+		2) Image.html
+		3) Notification-list.html
+		4) Ribbons.html
+		5) Landing-page.html(inner landing page)
+
+
+----------------------------------------------------------------------
+4) Updated some js files in js folder.
+----------------------------------------------------------------------
+	Please replace below js files in (root:-assets/js/..)
+		
+		Custom-switcher.js 
+		Custom.js 
+		Sidebar.js 
+		Sidemenu.js
+		landing.js
+	
+	Note:- Removed theme-color.js file and those styles are included in custom-switcher.js
+
+----------------------------------------------------------------------
+5) Updated total Sidemenu 
+----------------------------------------------------------------------
+	Please replace sidemenu.js, sidemenu.scss and html content
+
+		sidemenu.js		(root:-assets/js/...)
+		sidemenu.scss		(root:-assets/scss/...)
+
+----------------------------------------------------------------------
+6) Updated main-sidebar section in all HTML Pages.
+----------------------------------------------------------------------
+	Please replace main-sidebar in all HTML pages where main-sidebar section is available.
+
+	(rootpath: Dashlead/HTML/*.html)
+
+----------------------------------------------------------------------
+7) Documentation and gulp file is updated.
+----------------------------------------------------------------------
+	Documentation and gulp  is Updated please go through it .
+
+Thanking you,
+@spruko.
